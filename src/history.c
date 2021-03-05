@@ -6,8 +6,8 @@
 //Initialize the linked list to keep the history
 List *init_history()
 {
-  List *list = (List*)malloc( sizeof(List) );
-  list->root = 0;
+  List *list = (List*)malloc( sizeof(List) ); //Allocate memory for list
+  list->root = 0; //Set the root to zero
   return list;
 }
 
